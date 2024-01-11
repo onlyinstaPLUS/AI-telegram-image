@@ -28,7 +28,7 @@ bot = Client(
 async def start(_, message: Message):
     addUserGroup(message.from_user.id, message.chat.id)
     await message.reply_text(
-        "**TechZ Image Gen (AI)**\n\n**Usage:**\n`/gen <promt>` - To Generate Image\n`/status` - To Check Available Workers, Queue, Bot Status\n\n**Example:**\n`/gen cat walking on the street`"
+        "**InstaPLUS Image Gen (AI)**\n\n**Usage:**\n`/gen <promt>` - To Generate Image\n`/status` - To Check Available Workers, Queue, Bot Status\n\n**Example:**\n`/gen cat walking on the street`**Channel: @Official_InstaPLUS"
     )
 
 
